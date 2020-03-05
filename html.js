@@ -18,20 +18,12 @@ module.exports =  "<main>" +
     "<input type='number' name='Second_Number'/>" +
   "<br>" +
   "<br>" +
-    // "<input type='submit' value='result'/>" +
     "<h2> Do you want to see your image here? </h2>" +
-  //   "<label for='link'>paste a link and submit</label>" +
-  
-  //   "<input type='link' name='link'/>" +
-  // "<br>" +
-  //   "<input type='submit' value='submit'/>" +
-    `<br>
-    <label for='imageLink'> Paste a link and submit and see the image</label>
-    <input type='text' name='imageLink'>
-    <br>
-    <input type='submit' value='submit'/>`
-    
-   
+    "<br>"+
+    "<label for='imageLink'> Paste a link and submit and see the image</label>"+
+    "<input type='text' name='imageLink'>"+
+    "<br>"+
+   "<input type='submit' value='submit'/>"+
 "</form>" +
 
 "</main>"

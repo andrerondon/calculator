@@ -26,7 +26,7 @@ const server = http.createServer((request, response) => {
       }
       
       if (resource === 'GET /'){
-        response.write('<div>this is root<div>');
+        response.write('<div>this is a root<div>');
         return response.end()
       }
       
